@@ -5,6 +5,8 @@ const { createControlWindow } = require('./windows/createControlWindow');
 const usageTracker = require('./usage/usageStore');
 const { ALTITUDE_RATIO, SPEED_MS } = require('./config');
 
+app.setName('Sans Token Walker');
+
 const SPAWN_STAGGER_MS = 1500;
 
 let overlayWindow;
@@ -41,7 +43,7 @@ app.whenReady().then(() => {
   controlWindow = createControlWindow();
 
   tray = new Tray(path.join(__dirname, '../assets/tray-icon.png'));
-  tray.setToolTip('Claude 토큰 모니터');
+  tray.setToolTip('Sans Token Walker');
   tray.setContextMenu(
     Menu.buildFromTemplate([
       { label: '제어판 열기', click: () => controlWindow.show() },

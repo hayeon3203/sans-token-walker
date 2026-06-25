@@ -6,7 +6,8 @@ function createControlWindow() {
     width: 340,
     height: 460,
     resizable: false,
-    title: 'Claude 토큰 모니터',
+    title: 'Sans Token Walker',
+    icon: path.join(__dirname, '../../assets/icon.png'),
     webPreferences: {
       preload: path.join(__dirname, '../preload-control.js'),
       contextIsolation: true,

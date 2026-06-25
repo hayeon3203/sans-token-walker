@@ -1,5 +1,6 @@
 {
-  "name": "claude-usage-creeper",
+  "name": "sans-token-walker",
+  "productName": "Sans Token Walker",
   "version": "0.1.0",
   "private": true,
   "main": "src/main.js",
