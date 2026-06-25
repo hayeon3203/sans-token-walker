@@ -61,6 +61,10 @@ Anthropic API에는 "지금까지 누적된 총 토큰 사용량"을 한 번에 
 
 `src/config.js`의 `ALTITUDE_RATIO`(화면 높이 비율, 0=위/1=아래)와 `SPEED_MS`(가로지르는 데 걸리는 시간)를 수정하면 됩니다. `THRESHOLDS` 배열의 구간을 추가/삭제할 때도 이 두 매핑에 동일한 키를 맞춰주면 됩니다.
 
-## 스프라이트 출처에 대한 안내
+## 스프라이트 라이센스
 
-`assets/sprites/sans-walk.png`는 Undertale(언더테일) 캐릭터 "산스"의 팬아트 스프라이트 시트에서 4프레임을 잘라낸 것입니다. 개인용 토이 프로젝트로는 보통 문제가 없지만, 공개 배포(릴리즈 빌드 배포, 스토어 등록 등)를 고려한다면 직접 그린 오리지널 픽셀아트로 교체하는 것을 권장합니다.
+`assets/sprites/sans-walk.png`는 Undertale(언더테일) 캐릭터 "산스"의 팬아트 스프라이트 시트(`undertale_spritesheet.png`)에서 4프레임을 잘라낸 것이며, 원본은 [HiClipart](https://www.hiclipart.com)에서 받았습니다. HiClipart의 이용 정책은 다음과 같습니다.
+
+> HiClipart is an open community for users to share PNG images, all PNG cliparts in HiClipart are for Non-Commercial Use, no attribution required. If you are the author and find this PNG is shared without your permisson, DMCA report please Contact Us.
+
+즉, 비영리 목적(Non-Commercial Use)이라면 별도 출처 표기 없이 사용 가능합니다. 이 프로젝트는 개인용 비영리 토이 프로젝트이므로 해당 정책 범위 내에서 사용 중입니다. 원저작자가 권한 없이 공유되었다고 판단할 경우 HiClipart의 DMCA 절차를 통해 신고할 수 있습니다. 영리적 용도로 전환하거나 공개 배포(스토어 등록 등)를 계획한다면 직접 그린 오리지널 픽셀아트로 교체하는 것을 권장합니다.
