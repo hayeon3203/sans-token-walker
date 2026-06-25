@@ -1,0 +1,54 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 16px;
+  background: #1e1e1e;
+  color: #eee;
+}
+
+h1 {
+  font-size: 16px;
+  margin: 0 0 16px;
+}
+
+section {
+  margin-bottom: 18px;
+}
+
+.label {
+  margin: 0 0 6px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+}
+
+input[type='number'] {
+  flex: 1;
+  padding: 6px 8px;
+  background: #2a2a2a;
+  border: 1px solid #444;
+  color: #eee;
+  border-radius: 4px;
+}
+
+button {
+  padding: 6px 10px;
+  background: #3a3a3a;
+  border: 1px solid #555;
+  color: #eee;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4a4a4a;
+}
+
+.state p {
+  margin: 4px 0;
+  font-size: 14px;
+}
