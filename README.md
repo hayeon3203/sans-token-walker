@@ -63,7 +63,7 @@ Anthropic API에는 "지금까지 누적된 총 토큰 사용량"을 한 번에 
 
 ## 스프라이트 라이센스
 
-`assets/sprites/sans-walk.png`는 Undertale(언더테일) 캐릭터 "산스"의 팬아트 스프라이트 시트(`undertale_spritesheet.png`)에서 4프레임을 잘라낸 것이며, 원본은 [HiClipart](https://www.hiclipart.com)에서 받았습니다. HiClipart의 이용 정책은 다음과 같습니다.
+`assets/sprites/sans-walk.png`는 인디게임 언더테일 최고의 캐릭터 샌즈 (a.k.a The Skeleton King) 의 스프라이트 시트(`undertale_spritesheet.png`)에서 4프레임을 잘라낸 것이며, 원본은 [HiClipart](https://www.hiclipart.com)에서 받았습니다. HiClipart의 이용 정책은 다음과 같습니다.
 
 > HiClipart is an open community for users to share PNG images, all PNG cliparts in HiClipart are for Non-Commercial Use, no attribution required. If you are the author and find this PNG is shared without your permisson, DMCA report please Contact Us.
 
